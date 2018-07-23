@@ -1,0 +1,47 @@
+body{
+font-family: "Comic Sans MS", cursive, sans-serif;
+}
+  h1{
+    color:#84ffff;
+    text-align: center;
+    font-style: italic;
+}
+  h2{
+    text-decoration: underline;
+    text-align: justify;
+    color: red;
+    line-height: 9px;
+    font-size: 14px;
+    
+}
+h3{
+  text-decoration: underline;
+  text-align: justify;
+  color: blue;
+  line-height: 9px;
+  font-size: 14px;
+  
+}
+h4{
+  text-decoration: underline;
+  text-align: justify;
+  color: yellow;
+  line-height: 9px;
+  font-size: 14px;
+  
+}
+h5{
+  text-decoration: underline;
+  text-align: justify;
+  color: rgb(42, 204, 63);
+  line-height: 9px;
+  font-size: 14px;
+  
+}h6{
+  text-decoration: underline;
+  text-align: justify;
+  color: orangered;
+  line-height: 9px;
+  font-size: 14px;
+  
+}
