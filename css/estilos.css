@@ -1,6 +1,6 @@
 body{
 font-family: "Comic Sans MS", cursive, sans-serif;
-background-image: url(../imagens/fundo1.jpg);
+background-image: url(../aula02/imagens/fundo1.jpg);
 background-repeat: repeat;
 }
 
@@ -56,5 +56,29 @@ h5{
   color: blue;
   line-height: 9px;
   font-size: 14px;
+}
+
+
+input {
+  width: 300 px;
+  display: block;
+  }
+
+  textarea{
+    resize:vertical;
+  }
   
+    
+input:focus{
+  background-color:yellow;
+}
+a:hover {
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ 
+img:hover {
+  border: 2px solid red;
+  border-radius: 20px;
 }

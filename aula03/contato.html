@@ -1,0 +1,55 @@
+<html>
+        <head>
+        <link  href= "../css/estilos.css" rel="stylesheet" >  
+        <meta charset="utf-8">
+        <title>"Formulário de Consultas"</title>
+        </head>
+
+<body>
+    <h1>"Formulário de Consultas"</h1>
+        <form method ="GET">
+         <label for="nome">Nome e sobrenome:</label>
+         <input type="text" name="usuario" placeholder= "insira o nome"/ ><br>
+         <label for="email">email:</label>
+         <input type="email" name=”email” placeholder="email"/>
+         <br><br>
+         <label for="curso">Nome do curso:</label><br>
+         <input type="checkbox" name="curso[]" id="fullstack" value="Fullstack"/>
+         <label for="fullstack">Fullstack</label><br>
+         <input type="checkbox" name="curso[]" id= "front-end" value="front-end"/>
+         <label for="front-end">Front-End</label><br>
+         <input type="checkbox" name="curso[]" id="back-end" value="back-end"/>
+         <label for="back-end"> Back-End</label><br>
+         <br>
+         <label for="generno">Genero</label><br>
+         <input type= "radio" name= "genero" id=  "feminino" value= "feminino"/>
+         <label for="feminino">feminino</label>
+         <label for="genero"></label><br>
+         <input type="radio" name= "genero" id= "masculino"value= "masculino"/>
+         <label for="masculino">masculino</label>
+         <label for="generno"></label><br>
+         <input type= "radio" name= "genero" id=  "prefiro não responder" value= "prefiro não responder"/>
+         <label for="prefiro não responder">Prefiro Não Responder</label><br>
+         <br>
+         <label for= "país">País</label><br>
+            <select name = "pais">
+            <option value=”Ar”>Argentina</option>
+            <option value=”Br”>Brasil</option>
+            <option value=”Co”>Colômbia</option>
+            </select>
+            <br><br>
+        <label for="comentario">Comentario</label><br> 
+        <textarea name=”mensagem”> </textarea> 
+        <br><br>  
+        <button type=”submit”>Enviar</button>
+        <button type=”reset”>Excluir</button>
+        <button type=”button”>Outra ação</button>    
+
+
+
+
+        </form>        
+
+ </body>
+
+</html>
