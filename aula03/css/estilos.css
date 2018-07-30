@@ -8,24 +8,23 @@ background-repeat: repeat;
  {  background-color: rgb(169, 184, 168); opacity: 0.5; }
 
 .destaque{ 
-    text-shadow: 3px 3px 2px #B3B4D5;
+    text-shadow: 3px 3px 2px #B3B4D5 !important;
     font-size: 22px;
 
 } 
-
 
   h1{
     color: blue;
     text-align: center;
     font-style: italic;
+    
 }
   h2{
     text-decoration: underline;
     text-align: justify;
     color: blue;
     line-height: 9px;
-    font-size: 14px;
-    
+    font-size: 14px ;    
 }
 h3{
   text-decoration: underline;
@@ -41,6 +40,7 @@ h4{
   color: blue;
   line-height: 9px;
   font-size: 14px;
+  text-align: center;
   
 }
 h5{
@@ -82,3 +82,57 @@ img:hover {
   border: 2px solid red;
   border-radius: 20px;
 }
+header{
+  display: block-inline ;
+  width: 960 px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: grey
+  
+}
+article { 
+  display: block-inline ;
+  width: 960 px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: #f00;
+}
+section{
+  display: block-inline ;
+  overflow: auto;
+  width: 960 px;
+  border-width: 5px;
+  border-style: dashed;
+  border-color: black;
+  height: 300px;
+  text-align: center;
+  padding: 20px 20px 20px 20px
+ 
+}
+
+ .links {
+  background: #8dbeda; 
+  float: left;
+  width:  360px;
+  padding-right:  20px 20px 40px 40px;
+  box-sizing: border-box;
+  
+}
+
+.somEVideo  {  	
+	float: right;  	
+	width:  960px;  	
+  background: #6F9;  
+  height: 650px;
+  box-sizing: border-box;
+  
+  }    
+  
+
+.footer  {  	
+  clear: both;  	
+  background: #FF9;  
+  float: right;  	
+  width:  960px;
+  box-sizing: border-box;
+}  
