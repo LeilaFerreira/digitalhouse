@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box; /* utilizado para forçar as medidas serem utilizadas no programa*/
+}
+
 body{
     background-image: url(../imagens/bg.jpg);
 
@@ -53,16 +57,18 @@ li{
   
 }
 .produtos {
-  height: 300px;
+  height: 280px;
   margin-top: 10px;
-  width: 300px;
-  padding: 10px;
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  overflow:hidden;
+  position:relative;
 }
 
 .produtoImg {
-  height: 270px;
   margin-top: 10px;
-  width: 270px;
+  height: 100%;
   
 }
 .produtoLinha{
@@ -79,26 +85,25 @@ footer{
 
 .promocaoImg{
   position:absolute; 
-  padding-top: 2%;
-  padding-left: 14%;
-  height: 70px;
   width: 70px;
+  top: 10px;
+  right: 10px;
  
 }
 .produtoNome{
   position:absolute; 
   background-color: rgb(12, 12, 12); opacity: 0.7; 
-  height: 50px;
-  width: 270px;
+  width: 100%;
   color:white;
   text-align:center;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 130px;
-  
+  padding:10px;
+
   /* 3 Propriedades adicionadas para centralizar o texto no meio da div */
-  display:flex;
+  /* display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:center; */
    
 }
 
@@ -110,5 +115,9 @@ footer{
   position:absolute;
   margin-top: 230px;
   margin-left:90px;
- 
+  border:none;
+  
+}
+button:hover{
+  background-color:blue;
 }
